@@ -1,0 +1,14 @@
+[Unit]
+Description=Scarecrow Main Service
+After=multi-user.target
+
+[Service]
+ExecStart=/home/group3/scarecrow_project/venv/bin/python /home/group3/scarecrow_project/main.py
+WorkingDirectory=/home/group3/scarecrow_project/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=group3
+
+[Install]
+WantedBy=multi-user.target
