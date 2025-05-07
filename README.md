@@ -41,9 +41,6 @@ pip install -r requirements.txt
   - 5.2V for Raspberry Pi
   - 5.2V for GSM module
 
-## 📸 Images
-Add diagrams and actual field setup photos in `/images`.
-
 ## 📬 Acknowledgments
 - YOLOv5 by Ultralytics
 - Roboflow for dataset training
